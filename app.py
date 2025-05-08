@@ -13,7 +13,7 @@ import json
 app = Flask(__name__)
 TOKEN = '7833441724:AAHh_rQQsDhh7lpwUPEC300zFbD_yYc3c5Y'
 bot = telebot.TeleBot(TOKEN, threaded=False)
-WEBHOOK_URL = 'https://<your-username>.pythonanywhere.com/webhook'  # Замените на ваш URL
+WEBHOOK_URL = 'https://telegram-bot-br7x.onrender.com'  # Замените на ваш URL
 
 # Инициализация модели
 model = tf.keras.models.Sequential([
